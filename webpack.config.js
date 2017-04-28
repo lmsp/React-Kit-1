@@ -33,6 +33,9 @@ let config = {
       loaders: [
         {
           loader: 'react-hot-loader!babel-loader'
+        },
+        {
+          loader: 'eslint-loader'
         }
       ],
       threads: 4
